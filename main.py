@@ -12,7 +12,7 @@ from app.middlewares.antiflud import ThrottlingMiddleware
 
 load_dotenv()
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
